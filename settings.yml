@@ -4,6 +4,6 @@ light_theme:
   description: "Light Theme ID"
 
 dark_theme:
-  default: 101
+  default: 103
   type: integer
   description: "Dark Theme ID"
