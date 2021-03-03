@@ -7,10 +7,7 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     color: var(--secondary);
     display: none;
-    font-family: Regular Patch, Regular Bold, Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
-        Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 22px;
-    font-weight: 400;
     margin-bottom: 15px;
     margin-top: -20px !important;
     max-height: none;
@@ -33,6 +30,8 @@
 
         &#svgLeft {
             margin-left: -10px;
+            left: -8rem;
+            top: -2rem;
         }
 
         &#svgRight {
@@ -41,30 +40,10 @@
         }
     }
 
-    .swoopbr,
-    .swooptl {
-        position: absolute;
-        z-index: -1;
-    }
-
-    .swoopbr {
-        bottom: -2rem;
-        right: -8rem;
-        width: 350px;
-    }
-
-    .swooptl {
-        left: -8rem;
-        top: -2rem;
-    }
-
     #welcome-message {
         align-items: center;
         display: flex;
-        float: none !important;
-        margin: 0 auto;
         max-width: 1440px;
-        width: 100% !important;
         z-index: 2;
 
         a {
@@ -84,12 +63,8 @@
     #welcome-resources,
     #welcome-text {
         flex: 1 1;
-        float: none;
-        font-family: Nunito Sans;
         font-size: 19px;
-        font-weight: normal;
         padding: 2rem;
-        width: auto;
 
         h2 {
             font-size: 48px;
@@ -99,21 +74,14 @@
 }
 
 #main-outlet {
-    padding-top: 0;
-
     div.container:first-of-type {
         max-width: none;
         padding-left: 0;
         padding-right: 0;
-        display: block;
     }
 
-    .category-header & {
-        padding-top: 0 !important;
-
-        .container:first-of-type {
-            margin-top: 15px !important;
-        }
+    .category-header & div.container:first-of-type {
+        padding-top: 5px;
     }
 
     .container:first-of-type .row {
