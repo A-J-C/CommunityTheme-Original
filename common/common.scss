@@ -90,35 +90,66 @@
 }
 
 /********************
+ *  THEME SWITCHER  *
+ ********************/
+
+.d-header .header-buttons {
+    margin-right: 2.8rem;
+}
+
+.switcher {
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:focus .d-icon,
+    &:active .d-icon,
+    &:hover .d-icon {
+        box-shadow: 0 0 0 2px #fff, 0 0 0 4px #141c3a;
+        color: var(--primary);
+    }
+
+    .d-icon {
+        border-radius: 2px;
+        color: var(--primary-medium);
+        display: inline-block;
+        font-size: 1.7511em;
+        font-weight: 400;
+        line-height: 1.4;
+        padding: 0.2rem;
+    }
+}
+
+/********************
  *    SVG STYLING   *
  ********************/
 
 .category-boxes .category-box,
 .category-boxes-with-topics .category-box {
-  position: relative;
+    position: relative;
 }
 
 .category-boxes .category-box-inner:before,
 .category-boxes-with-topics .category-box-inner:before {
-  content: '';
-  position: absolute;
-  top: -6px;
-  right: 0;
-  width: 100px;
-  height: 35px;
-  background-repeat: no-repeat;
-  background-size: 100px 35px;
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 0;
+    width: 100px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 100px 35px;
 }
 
 /* RED */
 .category-boxes .category-box-python .category-box-inner:before,
 .category-boxes .category-box-build-chatbots-with-python .category-box-inner:before,
 .category-boxes .category-box-Python-FAQ .category-box-inner:before,
-.category-boxes .category-box-build-chatbots-with-python-faq  .category-box-inner:before,
+.category-boxes .category-box-build-chatbots-with-python-faq .category-box-inner:before,
 .category-boxes-with-topics .category-box-getting-started .category-box-inner:before,
 .category-boxes-with-topics .category-box-Community-Organizers .category-box-inner:before,
 .category-boxes-with-topics .category-box-Meetups-and-Community-Events .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/9fbd09402bf67787a65c85658c001295174b6680.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/9fbd09402bf67787a65c85658c001295174b6680.svg');
 }
 
 /* BRAND PURPLE */
@@ -130,7 +161,7 @@
 .category-boxes-with-topics .category-box-learn-from-home-club .category-box-inner:before,
 .category-boxes-with-topics .category-box-hq-announcements .category-box-inner:before,
 .category-boxes-with-topics .category-box-super-user-pro-lounge .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/d2999f566307d4f87ca7b92c08231b7a77d39589.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/d2999f566307d4f87ca7b92c08231b7a77d39589.svg');
 }
 
 /* DARK BLUE */
@@ -150,7 +181,7 @@
 .category-boxes-with-topics .category-box-faq-updates .category-box-inner:before,
 .category-boxes-with-topics .category-box-codecademy-pro .category-box-inner:before,
 .category-boxes-with-topics .category-box-project-bug-reporting .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/93dd676a85e128410aadba06fd95a7df6006832e.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/93dd676a85e128410aadba06fd95a7df6006832e.svg');
 }
 
 /* MINT */
@@ -174,7 +205,7 @@
 .category-boxes-with-topics .category-box-super-users-lounge .category-box-inner:before,
 .category-boxes-with-topics .category-box-good-users .category-box-inner:before,
 .category-boxes-with-topics .category-box-stock-answers .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/0f594f7ca67cb853c1b3cb488d0b68b1f81473a4.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/0f594f7ca67cb853c1b3cb488d0b68b1f81473a4.svg');
 }
 
 /* YELLOW */
@@ -186,7 +217,7 @@
 .category-boxes .category-box-swift-faq .category-box-inner:before,
 .category-boxes-with-topics .category-box-international .category-box-inner:before,
 .category-boxes-with-topics .category-box-Pro .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/8f18c04010888b79b3dc95995a74d4b54d088d03.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/8f18c04010888b79b3dc95995a74d4b54d088d03.svg');
 }
 
 /* LIGHT BLUE */
@@ -213,7 +244,7 @@
 .category-boxes-with-topics .category-box-learn-php-classes-and-objects .category-box-inner:before,
 .category-boxes-with-topics .category-box-kotlin .category-box-inner:before,
 .category-boxes-with-topics .category-box-learn-php-form-validation .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/f11f7e9c825b8c6cdf268617f910b66b373402b6.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/f11f7e9c825b8c6cdf268617f910b66b373402b6.svg');
 }
 
 /* OTHER PURPLE */
@@ -221,7 +252,7 @@
 .category-boxes .category-box-git .category-box-inner:before,
 .category-boxes .category-box-command-line-FAQ .category-box-inner:before,
 .category-boxes .category-box-git-FAQ .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/b0700454678ed08a63e851e74e4131cc123c1ba4.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/b0700454678ed08a63e851e74e4131cc123c1ba4.svg');
 }
 
 /* GREY */
@@ -237,5 +268,5 @@
 .category-boxes-with-topics .category-box-read-only .category-box-inner:before,
 .category-boxes-with-topics .category-box-meta-beta-testers .category-box-inner:before,
 .category-boxes-with-topics .category-box-teachers .category-box-inner:before {
-  background-image: url("https://codecademy-public-assets.s3.amazonaws.com/community/border/65c932294f85579101aadc6b8b60b4c651596a9d.svg");
+    background-image: url('https://codecademy-public-assets.s3.amazonaws.com/community/border/65c932294f85579101aadc6b8b60b4c651596a9d.svg');
 }

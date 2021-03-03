@@ -1,3 +1,7 @@
+/********************
+ *  BANNER STYLING  *
+ ********************/
+ 
 #banner {
     margin: 0 -10px;
     padding: 10px 0 0 0;
@@ -27,4 +31,16 @@
             margin: 0;
         }
     }
+}
+
+/********************
+ *  THEME SWITCHER  *
+ ********************/
+
+ .d-header .header-buttons {
+    margin-right: 1.3rem;
+}
+
+.switcher .d-icon {
+    margin: 0 0 0 10px;
 }
