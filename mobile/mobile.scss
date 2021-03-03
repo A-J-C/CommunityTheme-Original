@@ -1,14 +1,12 @@
 #banner {
-    margin-left: -10px;
-    margin-right: -10px;
-    padding-top: 10px;
+    margin: 0 -10px;
+    padding: 10px 0 0 0;
 
     #svgLeft {
         margin-left: 0;
         filter: opacity(0.7);
     }
 
-    &,
     & #welcome-text,
     & #welcome-text h2 {
         padding: 0;
@@ -23,7 +21,7 @@
     #welcome-message {
         padding: 20px;
         width: auto !important;
-        
+
         p {
             margin: 0;
         }
