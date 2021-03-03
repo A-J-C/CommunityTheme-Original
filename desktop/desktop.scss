@@ -1,21 +1,17 @@
 #main-outlet {
+    margin: 0; 
     padding-left: 0;
     padding-right: 0;
-    margin: 0; 
 }
 
-@media (max-width: 1048px) {
-    #banner #welcome-resources {
+@media (max-width: 480px) {
+    #banner {
         display: none;
     }
 }
 
-/********************
- *  BANNER STYLING  *
- ********************/
-
-@media (max-width: 480px) {
-    #banner {
+@media (max-width: 1048px) {
+    #banner #welcome-resources {
         display: none;
     }
 }
