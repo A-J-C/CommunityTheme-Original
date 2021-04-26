@@ -4,6 +4,9 @@
     "license_url": "https://github.com/A-J-C/CommunityTheme-Original/blob/master/LICENSE",
     "authors": "Alex",
     "theme_version": "1.0",
-    "assets": {},
+    "assets": {
+      "social1a": "assets/social1a.png",
+      "social2a": "assets/social2a.png"
+    },
     "color_schemes": {}
   }
