@@ -45,19 +45,6 @@
         display: flex;
         max-width: 1440px;
         z-index: 2;
-
-        a {
-            &:link,
-            &:hover,
-            &:visited,
-            &:active {
-                color: var(--cc-link);
-            }
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
     }
 
     #welcome-resources,
